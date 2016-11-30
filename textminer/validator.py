@@ -2,11 +2,11 @@ import re
 
 
 def binary(list_numbers):
-    return re.search(r"^[0, 1]+$", list_numbers)
+    return re.search(r"^[01]+$", list_numbers)
 
 
 def binary_even(list_n):
-    return re.search(r"^[0, 1]+0$", list_n)
+    return re.search(r"^[01]+0$", list_n)
 
 
 def hex(list_letternumber):
